@@ -70,12 +70,12 @@
             },connectionLimit : 10,
             getData() {
                 this.$axios.get('getArticleList',{},res => {
-                    console.log(res);
+                    this.tableData = res.data;
                 })
 
             },
             showDetails(id) {
-                this.$router.push({path: 'articleDetails', query: {id}})
+                this.$router.push({path: 'details', query: {id}})
             },
             handleChange(val) {
                 this.loading = true;

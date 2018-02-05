@@ -52,7 +52,14 @@ export const constantRouterMap = [
                 component: _import('Article/addArticle'),
                 meta: {title: '添加文章'},
                 hidden: true
-            }
+            },
+            {
+                path: 'details',
+                component: _import('Article/details'),
+                meta: {title: '文章详情'},
+                hidden: true
+            },
+
         ]
     },
 
