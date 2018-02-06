@@ -5,6 +5,7 @@ export default{
     },
     baseURL: 'http://didicrm.yaojunrong.com/',
 
+
     //qiniu相关
     qiniu: 'upload',
 
