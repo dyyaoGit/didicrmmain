@@ -33,7 +33,7 @@
                                     container: 'container1',
                                     token: res.data.token,
                                 }, (info, file) => {
-                                    this.imgList.push(`http://image.yaojunrong.com/${info.hash}`);
+                                    this.imgList.push(`http://image.yaojunrong.com/${info.key}`);
                                     this.handleSubmit();
                                 })
                             }

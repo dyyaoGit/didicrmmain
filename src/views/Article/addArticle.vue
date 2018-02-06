@@ -77,7 +77,7 @@
                     if (res.ret == true) {
                         this.$message.success('文章添加成功，正在为您跳转文章列表...')
                         setTimeout(() => {
-                            this.$router.push('article')
+                            this.$router.push('list')
                         }, 1500)
                     }
                 })
@@ -87,7 +87,7 @@
                     if (res.ret == true) {
                         this.$message.success('文章修改成功，正在为您跳转文章列表...')
                         setTimeout(() => {
-                            this.$router.push('article')
+                            this.$router.push('list')
                         }, 1500)
                     }
                 })

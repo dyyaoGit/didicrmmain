@@ -12,6 +12,7 @@ export default{
     //文章列表
 
     getArticleList: 'crm/article/get',
-    addArticle: 'crm/article/add'
+    addArticle: 'crm/article/add',
+    delArticle: 'crm/article/del'
 
 }

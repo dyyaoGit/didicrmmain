@@ -61,7 +61,7 @@
                                     container: self.containerId
                                 }, (info, file) => {
                                     console.log(info)
-                                    let urlString = `http://image.yaojunrong.com/${info.hash}`
+                                    let urlString = `http://image.yaojunrong.com/${info.key}`
                                     this.imgList.push(urlString);
                                     this.handleSubmit();
                                 })
