@@ -3,7 +3,7 @@ export default{
         let t = this;
         return t.baseURL.trim() + t[u.trim()];
     },
-    baseURL: 'http://localhost:3010/',
+    baseURL: 'http://didicrm.yaojunrong.com/',
 
     //qiniu相关
     qiniu: 'upload',
