@@ -1,6 +1,6 @@
 <template>
   <div class="dashboard-container">
-    <div class="dashboard-text">欢迎来到无界云店后台系统</div>
+    <div class="dashboard-text">欢迎来到滴滴工程后台系统</div>
     <!--<div class="dashboard-text">role:<span v-for='role in roles' :key='role'>{{role}}</span></div>-->
   </div>
 </template>
